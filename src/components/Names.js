@@ -2,6 +2,7 @@ import React, {useEffect, useState} from 'react';
 import nameService from '../services/nameService';
 import Table from 'react-bootstrap/Table';
 import '../css/names.css';
+import Row from '../components/Row'
 import {
   FormControl,
   Form,
@@ -39,11 +40,7 @@ export const Names = () => {
       item.name.toLowerCase().includes(newFilter.toLowerCase())
   ).reverse().map(item => {
     return (
-        <tr key={item.id}>
-          <td>{item.id}</td>
-          <td>{item.name}</td>
-          <td>{item.amount}</td>
-        </tr>
+        <Row item={item}/>
     );
   });
 
@@ -54,11 +51,7 @@ export const Names = () => {
       item.name.toLowerCase().includes(newFilter.toLowerCase())
   ).map(item => {
     return (
-        <tr key={item.id}>
-          <td>{item.id}</td>
-          <td>{item.name}</td>
-          <td>{item.amount}</td>
-        </tr>
+        <Row item={item}/>
     );
   });
 
