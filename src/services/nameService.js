@@ -1,13 +1,8 @@
 import axios from 'axios';
 
 const getNames = () => {
-  const request = axios.get('http://localhost:3001/names',{
-    headers:{
-      "access-control-allow-origin" : "*",
-    }
-  });
+  const request = axios.get('/names');
   return request.then(res => res.data);
 };
 
-
-export default {getNames}
+export default {getNames};

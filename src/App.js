@@ -1,10 +1,8 @@
 import React from 'react';
 
-
 import NavigationBar from './components/NavigationBar';
-import Names from './components/names';
+import Names from './components/Names';
 import { BrowserRouter as Router  } from "react-router-dom";
-
 
 const App = () => {
   return (
