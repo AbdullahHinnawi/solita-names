@@ -2,21 +2,21 @@
 
 > SOLITA names app lists the top-10 of both male and female names in Solita.
 
-# Used technologies:
+## Used technologies:
 - React
 - Bootstrap
 
-# How to use:
+## How to use:
 
 Clone the app and run it from your IDE. <br />
  
-## Install:
+### Install:
 
 ```sh
 npm install
 ```
 
-## Server:
+### Server:
 
 I used JSON server to act as a server, after installation you can do:
 
