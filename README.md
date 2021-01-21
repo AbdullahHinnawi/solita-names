@@ -1,6 +1,10 @@
 <h1 align="center">Welcome to SOLITA names 👋</h1>
 
-> SOLITA names app lists the top-10 of both male and female names in Solita
+> SOLITA names app lists the top-10 of both male and female names in Solita.
+
+# Used technologies:
+- React
+- Bootstrap
 
 # How to use:
 
@@ -34,5 +38,5 @@ npx json-server --port 3001 --watch names.json
 
 👤 **Abdullah Hinnawi**
 - [Portfolio](https://abdullahhinnawi.com/)
-- [Linkedin](https://www.linkedin.com/in/abdullah-hinnawi-426465198/) 
+- [Linkedin](https://www.linkedin.com/in/abdullah-hinnawi-426465198/)
 - [GitHub](https://github.com/abdullahHinnawi)

@@ -7,7 +7,7 @@ import {
   Form,
   InputGroup
 } from "react-bootstrap";
-const Names = () => {
+export const Names = () => {
 
   const [items, setItems] = useState([]);
   const [checked, setChecked] = useState('mostPopularFirst');
